@@ -1,0 +1,49 @@
+.explore-section {
+  height: 865px;
+  padding-top: 90px;
+}
+
+.explore-container {
+  display: grid;
+  grid-template-columns: 720px 720px;
+}
+
+.text-picture-explore {
+  width: 660px;
+
+  color: #ffffff;
+}
+
+.line-explore {
+  width: 660px;
+  margin-top: 25px;
+  margin-left: 0;
+  /*height: 3px;
+  background: #710707;
+  border-radius: 0px;*/
+}
+
+.text-explore {
+  padding-top: 25px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  /* or 175% */
+
+  color: #ffffff;
+}
+
+.text-explore1 {
+  padding-top: 75px;
+}
+
+.picture {
+  /* width: 720px;
+  height: 700px;*/
+}
+
+.yellow-veil {
+  color: #9d8665;
+}
