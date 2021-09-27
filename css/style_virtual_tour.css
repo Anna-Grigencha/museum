@@ -1,0 +1,125 @@
+visiting-section {
+  height: 1116px;
+}
+
+.text_Virtyal_tour {
+  width: 544px;
+  color: #9d8665;
+}
+
+.line {
+  /*border-radius: 0px;*/
+  margin-top: 9px;
+}
+
+.line_visiting {
+  width: 1440px;
+}
+
+/*.Royal_Palace {
+  width: 440px;
+  height: 422px;
+}*/
+
+.card {
+  width: 440px;
+  height: 285px;
+  top: 0;
+  border-radius: 0px;
+}
+
+h3 {
+  width: 252px;
+  height: 35px;
+
+  top: 310px;
+
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  color: #000000;
+  margin-top: 25px;
+}
+
+.underline_card_name {
+  width: 300px;
+  height: 2px;
+  /*left: 0px;*/
+  /*top: 354px;*/
+  margin: 0;
+}
+
+.text_virtual_tour {
+  width: 165px;
+  height: 26px;
+  left: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+  padding-top: 10px;
+
+  color: #000000;
+}
+
+.text_google_street_panorama_view {
+  width: 240px;
+  height: 21px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  padding-top: 10px;
+  margin-top: 10px;
+
+  color: #000000;
+}
+
+.Denon_Wing {
+  width: 440px;
+  height: 422px;
+}
+
+.Colonnade_Perrault {
+  width: 440px;
+  height: 422px;
+}
+.card_name_Colonnade_Perrault {
+  width: 403px;
+}
+
+.Greek_hall {
+  width: 440px;
+  height: 422px;
+}
+
+.Mona_Lisa {
+  width: 440px;
+  height: 422px;
+}
+
+.Night_Palace {
+  width: 440px;
+  height: 422px;
+}
+
+.cards {
+  display: grid;
+  /*grid-template-columns: repeat(3, 2fr);*/
+  grid-template-columns: 440px 440px 440px;
+  grid-template-rows: 424px 424px;
+  /*grid-gap: 60px;*/
+  margin-top: 75px;
+  gap: 75px 60px;
+}
