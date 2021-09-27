@@ -1,0 +1,148 @@
+visiting-section {
+  height: 1116px;
+}
+
+.text-Virtyal-tour {
+  width: 544px;
+  color: #9d8665;
+}
+
+.line {
+  /*border-radius: 0px;*/
+  /*margin-top: 9px;*/
+}
+
+.line-visiting {
+  width: 1440px;
+}
+
+/*.Royal-Palace {
+  width: 440px;
+  height: 422px;
+}*/
+
+.card {
+  width: 440px;
+  height: 285px;
+  top: 0;
+  border-radius: 0px;
+}
+
+h3 {
+  width: 252px;
+  height: 35px;
+
+  top: 310px;
+
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  color: #000000;
+  margin-top: 25px;
+}
+
+.underline-card-name {
+  width: 300px;
+  height: 2px;
+  /*left: 0px;*/
+  /*top: 354px;*/
+  margin: 0;
+}
+
+.text-virtual-tour {
+  width: 165px;
+  height: 26px;
+  left: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+  padding-top: 10px;
+
+  color: #000000;
+}
+
+.text-google-street-panorama-view {
+  width: 240px;
+  height: 21px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  padding-top: 10px;
+  margin-top: 10px;
+
+  color: #000000;
+}
+
+.Denon-Wing {
+  width: 440px;
+  height: 422px;
+}
+
+.Colonnade-Perrault {
+  width: 440px;
+  height: 422px;
+}
+.card-name-Colonnade-Perrault {
+  width: 403px;
+}
+
+.Greek-hall {
+  width: 440px;
+  height: 422px;
+}
+
+.Mona-Lisa {
+  width: 440px;
+  height: 422px;
+}
+
+.Night-Palace {
+  width: 440px;
+  height: 422px;
+}
+
+.cards {
+  display: grid;
+  /*grid-template-columns: repeat(3, 2fr);*/
+  grid-template-columns: 440px 440px 440px;
+  grid-template-rows: 424px 424px;
+  /*grid-gap: 60px;*/
+  margin-top: 75px;
+  gap: 75px 60px;
+}
+
+.text-card {
+  padding-top: 10px;
+}
+
+.line-after-card {
+  position: relative;
+}
+
+.line-after-card::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  width: 300px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #710707;
+}
+
+.line-explore {
+  width: 660px;
+}

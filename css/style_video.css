@@ -1,0 +1,43 @@
+.video-section {
+  height: 1246px;
+}
+
+.video-container {
+  display: grid;
+  grid-template-columns: 720px 720px;
+  height: 90px;
+  align-items: center;
+}
+
+.text-Video-journey {
+  /* width: 606px;*/
+  /*top: 0px;*/
+  color: #9d8665;
+}
+
+.text-video-section {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px;
+  font-size: 22px;
+}
+
+.video {
+  background: url(../assets/img/Video.jpg) no-repeat center;
+  width: 1440px;
+  height: 650px;
+  margin-top: 75px;
+}
+
+.play {
+  position: absolute;
+  margin-left: 610px;
+  margin-top: 215px;
+}
+
+.background-control-panel {
+  background: #000000;
+  height: 85px;
+  padding-top: 0px;
+}
