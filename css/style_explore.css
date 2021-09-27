@@ -1,7 +1,6 @@
 .explore-section {
   height: 865px;
   padding-top: 90px;
-  border: 1px solid red;
 }
 
 .explore-container {
@@ -9,7 +8,7 @@
   grid-template-columns: 720px 720px;
 }
 
-.text_picture_explore {
+.text-picture-explore {
   width: 660px;
 
   color: #ffffff;
@@ -18,9 +17,10 @@
 .line-explore {
   width: 660px;
   margin-top: 25px;
-  height: 3px;
+  margin-left: 0;
+  /*height: 3px;
   background: #710707;
-  border-radius: 0px;
+  border-radius: 0px;*/
 }
 
 .text-explore {
@@ -42,4 +42,8 @@
 .picture {
   /* width: 720px;
   height: 700px;*/
+}
+
+.yellow-veil {
+  color: #9d8665;
 }

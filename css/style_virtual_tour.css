@@ -2,21 +2,21 @@ visiting-section {
   height: 1116px;
 }
 
-.text_Virtyal_tour {
+.text-Virtyal-tour {
   width: 544px;
   color: #9d8665;
 }
 
 .line {
   /*border-radius: 0px;*/
-  margin-top: 9px;
+  /*margin-top: 9px;*/
 }
 
-.line_visiting {
+.line-visiting {
   width: 1440px;
 }
 
-/*.Royal_Palace {
+/*.Royal-Palace {
   width: 440px;
   height: 422px;
 }*/
@@ -46,7 +46,7 @@ h3 {
   margin-top: 25px;
 }
 
-.underline_card_name {
+.underline-card-name {
   width: 300px;
   height: 2px;
   /*left: 0px;*/
@@ -54,7 +54,7 @@ h3 {
   margin: 0;
 }
 
-.text_virtual_tour {
+.text-virtual-tour {
   width: 165px;
   height: 26px;
   left: 0px;
@@ -70,7 +70,7 @@ h3 {
   color: #000000;
 }
 
-.text_google_street_panorama_view {
+.text-google-street-panorama-view {
   width: 240px;
   height: 21px;
 
@@ -86,30 +86,30 @@ h3 {
   color: #000000;
 }
 
-.Denon_Wing {
+.Denon-Wing {
   width: 440px;
   height: 422px;
 }
 
-.Colonnade_Perrault {
+.Colonnade-Perrault {
   width: 440px;
   height: 422px;
 }
-.card_name_Colonnade_Perrault {
+.card-name-Colonnade-Perrault {
   width: 403px;
 }
 
-.Greek_hall {
+.Greek-hall {
   width: 440px;
   height: 422px;
 }
 
-.Mona_Lisa {
+.Mona-Lisa {
   width: 440px;
   height: 422px;
 }
 
-.Night_Palace {
+.Night-Palace {
   width: 440px;
   height: 422px;
 }
@@ -122,4 +122,27 @@ h3 {
   /*grid-gap: 60px;*/
   margin-top: 75px;
   gap: 75px 60px;
+}
+
+.text-card {
+  padding-top: 10px;
+}
+
+.line-after-card {
+  position: relative;
+}
+
+.line-after-card::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  width: 300px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #710707;
+}
+
+.line-explore {
+  width: 660px;
 }
