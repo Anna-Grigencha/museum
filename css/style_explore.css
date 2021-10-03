@@ -1,6 +1,7 @@
 .explore-section {
   height: 865px;
   padding-top: 90px;
+  border: 1px solid red;
 }
 
 .explore-container {
@@ -46,4 +47,8 @@
 
 .yellow-veil {
   color: #9d8665;
+}
+
+.line-explore {
+  width: 660px;
 }

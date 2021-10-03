@@ -1,5 +1,6 @@
-visiting-section {
-  height: 1116px;
+.visiting-section {
+  /* height: 1116px;*/
+  border: 1px solid red;
 }
 
 .text-Virtyal-tour {
@@ -7,19 +8,9 @@ visiting-section {
   color: #9d8665;
 }
 
-.line {
-  /*border-radius: 0px;*/
-  /*margin-top: 9px;*/
-}
-
 .line-visiting {
   width: 1440px;
 }
-
-/*.Royal-Palace {
-  width: 440px;
-  height: 422px;
-}*/
 
 .card {
   width: 440px;
@@ -46,14 +37,6 @@ h3 {
   margin-top: 25px;
 }
 
-.underline-card-name {
-  width: 300px;
-  height: 2px;
-  /*left: 0px;*/
-  /*top: 354px;*/
-  margin: 0;
-}
-
 .text-virtual-tour {
   width: 165px;
   height: 26px;
@@ -63,8 +46,6 @@ h3 {
   font-style: normal;
   font-weight: 200;
   font-size: 22px;
-  line-height: 26px;
-  /* identical to box height */
   padding-top: 10px;
 
   color: #000000;
@@ -78,40 +59,14 @@ h3 {
   font-style: normal;
   font-weight: 200;
   font-size: 18px;
-  line-height: 21px;
-  /* identical to box height */
   padding-top: 10px;
   margin-top: 10px;
 
   color: #000000;
 }
 
-.Denon-Wing {
-  width: 440px;
-  height: 422px;
-}
-
-.Colonnade-Perrault {
-  width: 440px;
-  height: 422px;
-}
 .card-name-Colonnade-Perrault {
   width: 403px;
-}
-
-.Greek-hall {
-  width: 440px;
-  height: 422px;
-}
-
-.Mona-Lisa {
-  width: 440px;
-  height: 422px;
-}
-
-.Night-Palace {
-  width: 440px;
-  height: 422px;
 }
 
 .cards {
@@ -124,25 +79,9 @@ h3 {
   gap: 75px 60px;
 }
 
-.text-card {
-  padding-top: 10px;
-}
-
 .line-after-card {
-  position: relative;
-}
-
-.line-after-card::after {
-  content: "";
-  position: absolute;
-  bottom: -10px;
+  margin-top: 10px;
   width: 300px;
-  left: 0;
-  right: 0;
   height: 2px;
   background-color: #710707;
-}
-
-.line-explore {
-  width: 660px;
 }

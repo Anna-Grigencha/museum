@@ -1,7 +1,16 @@
 .gallery-section {
   height: 2200px;
+  border: 1px solid red;
 }
 
 .section-name-gallery {
   color: #ffffff;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 456px 456px 456px;
+  gap: 24px 36px;
+  margin-top: 75px;
+  gap: 75px 60px;
 }
