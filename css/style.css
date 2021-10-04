@@ -62,6 +62,29 @@ h2 {
   align-items: center;
 }
 
+.header-loqo {
+  width: 199px;
+  height: 33px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /*align-items: center;*/
+}
+
+.text-logo {
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
 .dark-section {
   background: black;
 }
@@ -114,6 +137,8 @@ li {
 .welcome-section {
   height: 810px;
   padding-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .welcome-title {
@@ -161,6 +186,7 @@ li {
 .button-intro {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 360px;
   height: 75px;
   background: #710707;
@@ -176,21 +202,113 @@ li {
   font-style: normal;
   font-weight: 200;
   font-size: 22px;
-  margin-top: 23.5px;
   letter-spacing: 2px;
 
   color: #ffffff;
 }
 
 .line {
-  position: relative;
-}
-.line::after {
-  content: "";
-  position: absolute;
-  bottom: -25px;
-  left: 0;
-  right: 0;
+  margin-top: 25px;
   height: 3px;
   background-color: #710707;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 984px;
+    margin: 0 auto;
+  }
+
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .line {
+    width: 984px;
+    margin-top: 20px;
+    height: 3px;
+    background-color: #710707;
+  }
+
+  .header-container {
+    height: 130px;
+  }
+
+  .header-loqo {
+    width: 189px;
+  }
+
+  h2 {
+    height: 75px;
+
+    font-size: 50px;
+    line-height: 75px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+  }
+
+  .section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .line {
+    width: 728px;
+    margin-top: 20px;
+    height: 3px;
+    background-color: #710707;
+  }
+
+  .header-container {
+    height: 110px;
+  }
+
+  .header-loqo {
+    width: 199px;
+  }
+  h2 {
+    height: 60px;
+
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    max-width: 380px;
+    margin: 0 auto;
+  }
+
+  .section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .line {
+    width: 380px;
+    margin-top: 20px;
+    height: 3px;
+    background-color: #710707;
+  }
+
+  .header-container {
+    height: 90px;
+  }
+
+  .header-loqo {
+    width: 131px;
+  }
+  h2 {
+    height: 40px;
+
+    font-size: 28px;
+    line-height: 40px;
+  }
 }

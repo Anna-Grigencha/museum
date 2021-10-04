@@ -1,11 +1,11 @@
 .explore-section {
-  height: 865px;
   padding-top: 90px;
 }
 
 .explore-container {
-  display: grid;
-  grid-template-columns: 720px 720px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .text-picture-explore {
@@ -15,12 +15,15 @@
 }
 
 .line-explore {
+  display: flex;
+  flex-wrap: wrap;
   width: 660px;
   margin-top: 25px;
   margin-left: 0;
-  /*height: 3px;
-  background: #710707;
-  border-radius: 0px;*/
+}
+
+.texts-explore {
+  width: 660px;
 }
 
 .text-explore {
@@ -30,6 +33,7 @@
   font-weight: 300;
   font-size: 22px;
   line-height: 38px;
+
   /* or 175% */
 
   color: #ffffff;
@@ -40,10 +44,122 @@
 }
 
 .picture {
-  /* width: 720px;
-  height: 700px;*/
+  width: 720px;
+  height: 700px;
 }
 
 .yellow-veil {
   color: #9d8665;
+}
+
+.line-explore {
+  width: 660px;
+}
+
+@media screen and (max-width: 1024px) {
+  .explore-section {
+    padding-top: 60px;
+  }
+
+  .explore-container {
+    display: flex;
+    /* justify-content: space-between;*/
+    flex-wrap: wrap;
+  }
+
+  .text-picture-explore {
+    width: 660px;
+
+    color: #ffffff;
+  }
+
+  .line-explore {
+    width: 984px;
+    margin-top: 25px;
+    margin-left: 0;
+  }
+
+  .px1024-none {
+    display: none;
+  }
+
+  .texts-explore {
+    width: 984px;
+  }
+
+  .text-explore {
+    padding-top: 0px;
+    font-size: 20px;
+    line-height: 38px;
+  }
+
+  .text-explore1 {
+    padding-top: 60px;
+  }
+
+  .picture {
+    padding-top: 62px;
+    padding-bottom: 60px;
+    width: 720px;
+    height: 700px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  /*.line-explore {
+    width: 984px;
+  }*/
+}
+
+@media screen and (max-width: 768px) {
+  .explore-section {
+    padding-top: 40px;
+  }
+
+  .explore-container {
+    display: flex;
+    /* justify-content: space-between;*/
+    flex-wrap: wrap;
+  }
+
+  .text-picture-explore {
+    width: 367px;
+
+    color: #ffffff;
+  }
+
+  .line-explore {
+    width: 728px;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .px1024-none {
+    display: none;
+  }
+
+  .texts-explore {
+    width: 984px;
+  }
+
+  .text-explore {
+    display: none;
+  }
+
+  .text-explore1 {
+    padding-top: 60px;
+  }
+
+  .picture {
+    padding-top: 40px;
+    /* padding-bottom: 60px;*/
+    width: 728px;
+    height: 705px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  /*.line-explore {
+    width: 984px;
+  }*/
 }
