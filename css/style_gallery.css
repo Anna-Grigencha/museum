@@ -1,16 +1,27 @@
 .gallery-section {
   height: 2200px;
-  border: 1px solid red;
 }
 
 .section-name-gallery {
   color: #ffffff;
 }
 
-.gallery {
-  display: grid;
-  grid-template-columns: 456px 456px 456px;
-  gap: 24px 36px;
+.picture-container {
+  width: 1440px;
+  height: 2125px;
+  overflow-y: hidden;
+}
+
+.picture-inner-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 2996px;
   margin-top: 75px;
-  gap: 75px 60px;
+  display: grid;
+  grid-column-gap: 36px;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+}
+
+.gallery-item {
+  margin-bottom: 24px;
 }

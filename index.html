@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/style_contacts.css" />
     <link rel="stylesheet" href="css/style_footer.css" />
     <link rel="stylesheet" href="css/style_gallery.css" />
+    <link rel="stylesheet" href="css/parallax.css" />
+
 
     <link rel="icon" href="assets/favicon.ico" />
 
@@ -79,7 +81,7 @@
 
       <section class="section light-section visiting-section" id="visiting">
         <div class="container">
-          <h2 class="text-Virtyal-tour">Virtual tour</h2>
+          <h2 class="title-card">Virtual tour</h2>
           <div class="line"></div>
 
           <div class="cards">
@@ -173,26 +175,20 @@
 
       <section class="section dark-section explore-section" id="explore">
         <div class="container explore-container">
-          <div>
+          <div class="texts-explore">
             <h2 class="text-picture-explore">Picture explore</h2>
             <div class="line line-explore"></div>
 
             <p class="text-explore text-explore1">
-              Las Meninas is a 1656 painting by Diego Velázquez, the leading
-              <br />
-              artist of the Spanish Golden Age.
+              Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.
             </p>
             <p class="text-explore">
               It was cleaned in 1984 to remove a
-              <span class="yellow-veil">"yellow veil"</span> of dust that had
-              <br />
-              gathered since the previous restoration in the 19th century.
+              <span class="yellow-veil">"yellow veil"</span> of dust that had gathered since the previous restoration in the 19th century.
             </p>
-            <p class="text-explore">
+            <p class="text-explore px1024-none">
               The cleaning provoked furious protests, not because the picture
-              had
-              <br />
-              been damaged in any way, but because it looked different.
+              had been damaged in any way, but because it looked different.
             </p>
           </div>
 
@@ -223,7 +219,19 @@
               <img src="assets/svg/play.svg" alt="play" class="play" />
             </div>
           </div>
-          <div class="background-control-panel"></div>
+          <div class="background-control-panel">
+            <button class="control-panel-play">
+              <img src="assets/svg/play1.svg" alt="play" />
+            </button>
+            <input class="progress" type="range" value="40" min="0" max="100" step="1">
+            <button class="control-panel-volume">
+              <img src="assets/svg/volume.svg" alt="play" /> 
+            </button>
+            <input class="volume-control" type="range" value="40" min="0" max="100" step="1">4
+            <button class="control-panel-fullscreen">
+              <img src="assets/svg/full-screen.svg" alt="full-screen" /> 
+            </button>
+          </div>
 
           <div class="playlist">
             <div>
@@ -265,8 +273,72 @@
       </section>
       <section class="section dark-section gallery-section" id="gallery">
         <div class="container">
-          <h2 class="section-name-gallery">Art Gallery</h2>
-          <div class="gallery"></div>
+          
+          <div class="picture-container">
+            <h2 class="section-name-gallery">Art Gallery</h2>
+            <div class="picture-inner-container">
+              <div class="gallery-item">
+                <img src="assets/img/galery1.jpg" alt="galery1"
+                />
+              </div>
+              <div class="gallery-item">
+                <img src="assets/img/galery2.jpg" alt="galery2"
+                />
+              </div>
+              <div class="gallery-item">
+                <img src="assets/img/galery3.jpg" alt="galery3"
+                />
+              </div>
+              <div class="gallery-item">
+                <img src="assets/img/galery4.jpg" alt="galery4"
+                />
+              </div>
+              <div class="gallery-item">
+                <img src="assets/img/galery5.jpg" alt="galery5"
+                />
+              </div>
+              <div class="gallery-item">
+                <img src="assets/img/galery6.jpg" alt="galery6"
+                />
+              </div>
+              <div class="gallery-item">
+                <img src="assets/img/galery7.jpg" alt="galery7"
+                />
+              </div>
+              <div class="gallery-item">
+                <img src="assets/img/galery8.jpg" alt="galery8"
+                />
+              </div>
+              <div class="gallery-item">
+                <img src="assets/img/galery9.jpg" alt="galery9"
+                />
+              </div>
+              <div class="gallery-item">
+                <img src="assets/img/galery10.jpg" alt="galery10"
+                />
+              </div>
+              <div class="gallery-item">
+                <img src="assets/img/galery11.jpg" alt="galery11"
+                />
+              </div>
+              <div class="gallery-item">
+                <img src="assets/img/galery12.jpg" alt="galery12"
+                />
+              </div>
+              <div class="gallery-item">
+                <img src="assets/img/galery13.jpg" alt="galery13"
+                />
+              </div>
+              <div class="gallery-item">
+                <img src="assets/img/galery14.jpg" alt="galery14"
+                />
+              </div>
+              <div class="gallery-item">
+                <img src="assets/img/galery15.jpg" alt="galery15"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -312,18 +384,32 @@
                   <button class="button-counter" type="button" onclick="this.previousElementSibling.stepUp()">+</input>
                   </div>
                   <div class=" total"><span>Total </span><span>€220</span></div>
+                  <button class="tickets-button" type="button"><div>Buy Now</div></button>
             </div>
             
           </div>
         </div>
       </section>
+      <div class="section parallax"></div>
 
-      <section class="section dark-section contacts-section" id="contacts">
+      <section class="section light-section contacts-section" id="contacts">
         <div class="container">
           <h2 class="section-name-contacts">Contacts</h2>
+          <div class="line line-contacts"></div>
+          <div class="contacts-container">
+            <div>
+              <p class="title-contacts">Palais Royal <br> Musee du Louvre </p>
+              <p class="contact"><span>address: </span><span>75001 Paris, France</span></p>
+              <p class="contact"><span>phone: </span><span>+33(0) 1 40 20 50 50</span></p>
+              <p class="contact"><span>mail: </span><span>info@louvre.fr</span></p>
+            </div>
+            <div class="map"></div>
+          </div>
         </div>
       </section>
     </main>
     <script src="js.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/video.js"></script>
   </body>
 </html>
