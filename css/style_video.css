@@ -28,6 +28,13 @@
 .video {
   /*background: url(../assets/img/Video.jpg) no-repeat center;*/
   margin-top: 75px;
+  /*display: flex;
+  flex-wrap: wrap;*/
+}
+
+.poster-video {
+  width: 1440px;
+  height: 650px;
 }
 
 .play {
@@ -55,6 +62,11 @@
   grid-template-columns: 452px 452px 452px;
   margin-top: 40px;
   column-gap: 42px;
+}
+
+.video-playlist {
+  width: 452;
+  height: 254;
 }
 
 .control-panel-play {
@@ -123,4 +135,100 @@
   -webkit-appearance: none;
   cursor: ew-resize;
   background: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+  }
+
+  .text-video-section {
+    display: none;
+  }
+
+  .video {
+    /*background: url(../assets/img/Video.jpg) no-repeat center;*/
+    margin-top: 40px;
+    /*display: flex;
+    flex-wrap: wrap;*/
+  }
+
+  .poster-video {
+    width: 984px;
+    height: 444px;
+  }
+
+  .play {
+    position: absolute;
+    margin-left: 416px;
+    margin-top: -280px;
+    width: 152px;
+    height: 152px;
+  }
+
+  .playlist {
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-top: 40px;
+    column-gap: 41px;
+  }
+
+  .video-playlist {
+    width: 300;
+    height: 170;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+  }
+
+  .text-video-section {
+    display: none;
+  }
+
+  .video {
+    /*background: url(../assets/img/Video.jpg) no-repeat center;*/
+    margin-top: 20px;
+    /*display: flex;
+    flex-wrap: wrap;*/
+  }
+
+  .poster-video {
+    width: 728px;
+    height: 329px;
+  }
+
+  .play {
+    position: absolute;
+    margin-left: 324px;
+    margin-top: -200px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .playlist {
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 354px 354px;
+    margin-top: 40px;
+    column-gap: 20px;
+  }
+
+  .video-playlist {
+    width: 354px;
+    height: 199px;
+  }
 }
