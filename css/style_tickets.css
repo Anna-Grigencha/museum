@@ -13,7 +13,8 @@
 }
 
 .line-tickets {
-  width: 1440px;
+  display: flex;
+  max-width: 1440px;
   margin-top: 25px;
   margin-left: 0;
 }

@@ -135,10 +135,22 @@ li {
 }
 
 .welcome-section {
-  height: 810px;
+  /*height: 810px;*/
   padding-top: 0px;
+}
+
+.welcome-container {
+  /*display: flex;
+  /*flex-wrap: wrap;*/
+  /*justify-content: space-between;*/
+  /*background-position: 98% 0;*/
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 810px;
+  background-image: url("../assets/img/MonaLisa.png");
+  background-repeat: no-repeat;
+  background-position: 98% 0;
 }
 
 .welcome-title {
@@ -152,20 +164,25 @@ li {
   text-transform: uppercase;
 
   color: #ffffff;
-  padding-top: 150px;
-  margin-left: -465px;
+}
+
+.welcome {
+  margin-top: 150px;
+  /*position: absolute;
+  
+  width: 598px;
+  height: 388px;
+  align-self: start;*/
 }
 
 .background {
-  background: url(../assets/img/1.jpg) no-repeat center;
-  width: 1000px;
-  height: 750px;
-  margin-left: 465px;
+  /*background: url(../assets/img/1.jpg) no-repeat center;*/
+  /* width: 1000px;
+  height: 750px;*/
 }
 
 .start-page {
   color: #ffffff;
-  margin-left: -465px;
 }
 
 .intro {
@@ -179,7 +196,7 @@ li {
   letter-spacing: 2px;
 
   color: #ffffff;
-  margin-left: -465px;
+
   margin-top: 26px;
 }
 
@@ -191,7 +208,7 @@ li {
   height: 75px;
   background: #710707;
   border-radius: 10px;
-  margin-left: -465px;
+
   margin-top: 75px;
 }
 
@@ -211,6 +228,7 @@ li {
   margin-top: 25px;
   height: 3px;
   background-color: #710707;
+  display: flex;
 }
 
 @media screen and (max-width: 1024px) {
