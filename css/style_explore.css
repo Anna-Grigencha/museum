@@ -71,7 +71,6 @@
 
   .line-explore {
     display: flex;
-    flex-wrap: wrap;
     width: 984px;
     margin-top: 25px;
     margin-left: 0;
