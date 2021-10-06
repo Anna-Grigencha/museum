@@ -183,6 +183,47 @@
     width: 300px;
     height: 170px;
   }
+
+  .background-control-panel {
+    height: 60px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .progress {
+    border-radius: 5px;
+    height: 5px;
+    width: 564px;
+  }
+
+  .progress::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    cursor: ew-resize;
+    background: #ffffff;
+  }
+  .control-panel-play {
+    width: 23px;
+    height: 30px;
+  }
+
+  .control-panel-fullscreen {
+    width: 26px;
+    height: 26px;
+  }
+  .control-panel-volume {
+    width: 26px;
+    height: 20px;
+  }
+
+  .volume-control {
+    border-radius: 5px;
+    height: 5px;
+    width: 143px;
+  }
 }
 
 @media screen and (max-width: 768px) {
