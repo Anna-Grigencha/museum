@@ -1,0 +1,239 @@
+.visiting-section {
+  /* height: 1116px;*/
+}
+
+.title-card {
+  width: 544px;
+  color: #9d8665;
+}
+
+.line-visiting {
+  width: 1440px;
+}
+
+.card {
+  width: 440px;
+  height: 285px;
+  top: 0;
+  border-radius: 0px;
+}
+
+h3 {
+  height: 35px;
+
+  top: 310px;
+
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  color: #000000;
+  margin-top: 25px;
+}
+
+.text-virtual-tour {
+  width: 165px;
+  height: 26px;
+  left: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  padding-top: 10px;
+
+  color: #000000;
+}
+
+.text-google-street-panorama-view {
+  width: 240px;
+  height: 21px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 21px;
+  padding-top: 10px;
+  margin-top: 10px;
+
+  color: #000000;
+}
+
+.card-name-Colonnade-Perrault {
+  width: 403px;
+}
+
+.cards {
+  display: grid;
+  /*grid-template-columns: repeat(3, 2fr);*/
+  grid-template-columns: 440px 440px 440px;
+  grid-template-rows: 424px 424px;
+  /*grid-gap: 60px;*/
+  margin-top: 75px;
+  gap: 75px 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.line-after-card {
+  margin-top: 10px;
+  width: 300px;
+  height: 2px;
+  background-color: #710707;
+}
+
+@media screen and (max-width: 1024px) {
+  .cards {
+    display: flex;
+    display: grid;
+    /*grid-template-columns: repeat(3, 2fr);*/
+    grid-template-columns: 330px 330px;
+    grid-template-rows: 345px 345px 345px;
+    /*grid-gap: 60px;*/
+    margin-top: 60px;
+    gap: 60px 108px;
+    margin-left: 108px;
+
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 330px;
+    height: 215px;
+    top: 0;
+    border-radius: 0px;
+  }
+
+  .line-after-card {
+    width: 150px;
+  }
+
+  .text-virtual-tour {
+    height: 23px;
+
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .text-google-street-panorama-view {
+    height: 19px;
+
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  h3 {
+    height: 31px;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 3px;
+
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    display: flex;
+    display: grid;
+    /*grid-template-columns: repeat(3, 2fr);*/
+    grid-template-columns: 280px 280px;
+    grid-template-rows: 301px 301px 301px;
+    /*grid-gap: 60px;*/
+    margin-top: 40px;
+    gap: 40px 56px;
+    margin-left: 56px;
+
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 280px;
+    height: 180px;
+    top: 0;
+    border-radius: 0px;
+  }
+
+  .line-after-card {
+    width: 150px;
+  }
+
+  .text-virtual-tour {
+    height: 21px;
+
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .text-google-street-panorama-view {
+    height: 19px;
+
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  h3 {
+    height: 24px;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 3px;
+
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .cards {
+    display: flex;
+    display: grid;
+    /*grid-template-columns: repeat(3, 2fr);*/
+    grid-template-columns: 280px;
+    grid-template-rows: 295px 295px 295px 295px 295px 295px;
+    /*grid-gap: 60px;*/
+    margin-top: 40px;
+    gap: 40px;
+    margin-left: 50px;
+
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 280px;
+    height: 180px;
+    top: 0;
+    border-radius: 0px;
+  }
+
+  .line-after-card {
+    width: 150px;
+  }
+
+  .text-virtual-tour {
+    height: 19px;
+
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .text-google-street-panorama-view {
+    height: 19px;
+
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  h3 {
+    height: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 5px;
+
+    margin-top: 25px;
+  }
+}

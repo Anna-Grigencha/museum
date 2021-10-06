@@ -1,0 +1,134 @@
+.tickets-section {
+}
+
+.section-name-tickets {
+  color: #9d8665;
+}
+
+.tickets-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between;*/
+  padding-top: 75px;
+}
+
+.line-tickets {
+  display: flex;
+  max-width: 1440px;
+  margin-top: 25px;
+  margin-left: 0;
+}
+
+.ticket-type {
+  margin-left: 60px;
+  width: 270px;
+  height: 211px;
+  display: flex;
+
+  flex-direction: column;
+}
+.amount {
+  margin-left: 240px;
+  display: flex;
+  width: 150px;
+  height: 341px;
+
+  flex-direction: column;
+}
+
+h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+  margin-bottom: 50px;
+
+  color: #000000;
+}
+
+.tickets-button {
+  margin-top: 52px;
+  width: 175px;
+  height: 50px;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  display: block;
+  letter-spacing: 2px;
+  background: #000000;
+  border-radius: 0%;
+  border: none;
+  color: #ffffff;
+}
+
+.name-amount {
+  align-self: flex-end;
+  margin-bottom: 25px;
+}
+
+.tickets-checkmark {
+  margin-bottom: 25px;
+}
+
+.text-section-ticket {
+  height: 26px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.number {
+  all: unset;
+  width: 3em;
+  text-align: center;
+}
+
+.counter {
+  border: 3px solid #000000;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  width: 150px;
+}
+
+.button-counter {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  font-family: "Roboto";
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  /* margin-left: 14px;*/
+}
+
+.button-counter:hover {
+  cursor: pointer;
+}
+
+.title-counter-senior {
+  margin-top: 10px;
+}
+
+.total {
+  margin-top: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+
+  letter-spacing: 1.65px;
+
+  color: #000000;
+}

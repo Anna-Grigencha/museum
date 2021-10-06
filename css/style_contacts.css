@@ -1,0 +1,144 @@
+.contacts-section {
+}
+
+.section-name-contacts {
+  color: #9d8665;
+}
+
+.line-contacts {
+  width: 1440px;
+}
+
+.contacts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+
+.map {
+  background: url(../assets/img/map.png);
+  width: 960px;
+  height: 620px;
+}
+
+.title-contacts {
+  height: 66px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  margin-bottom: 50px;
+}
+
+.contact {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .line-contacts {
+    width: 984px;
+  }
+
+  .contacts-container {
+    margin-top: 60px;
+  }
+
+  /*.contacts {
+    width: 282px;
+    height: 244px;
+  }*/
+
+  .map {
+    width: 694px;
+    height: 454px;
+  }
+
+  .title-contacts {
+    height: 56px;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 35px;
+  }
+
+  .contact {
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .line-contacts {
+    width: 728px;
+  }
+
+  .contacts-container {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content*/
+    margin-top: 40px;
+  }
+
+  .map {
+    width: 728px;
+    height: 476px;
+    margin-top: 25px;
+  }
+
+  .title-contacts {
+    height: 46px;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 40px;
+  }
+
+  .contact {
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .line-contacts {
+    width: 380px;
+  }
+
+  .contacts-container {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content*/
+    margin-top: 40px;
+  }
+
+  .map {
+    background: url(../assets/img/map-420.png);
+    width: 380px;
+    height: 248px;
+    margin-top: 25px;
+  }
+
+  .title-contacts {
+    height: 38px;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 40px;
+  }
+
+  .contact {
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,126 @@
+.footer {
+  position: absolute;
+  width: 1440px;
+  height: 150px;
+  left: 240px;
+  top: 6020px;
+}
+
+.text_Logo_footer {
+  position: absolute;
+  width: 125px;
+  height: 50px;
+  left: 70px;
+  top: 0px;
+
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 50px;
+  /* identical to box height, or 179% */
+
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  z-index: 2;
+}
+
+.logo_vector {
+  position: absolute;
+  width: 50px;
+  height: 34px;
+  left: 0px;
+  top: 9px;
+
+  border-radius: 0px;
+}
+
+.Navigation_footer {
+  position: absolute;
+  width: 366px;
+  height: 150px;
+  left: 340px;
+  top: 0px;
+}
+
+.Welcome_navigation_footer {
+  width: 107px;
+  left: 0px;
+  top: 0px;
+}
+
+.Visiting_navigation_footer {
+  width: 88px;
+  left: 0px;
+  top: 50px;
+}
+
+.Explore_navigation_footer {
+  width: 87px;
+  left: 0px;
+  top: 100px;
+}
+
+.Video_navigation_footer {
+  width: 65px;
+  left: 260px;
+  top: 0px;
+}
+
+.Tickets_navigation_footer {
+  width: 85px;
+  left: 260px;
+  top: 50px;
+}
+.Contacts_navigation_footer {
+  width: 106px;
+  left: 260px;
+  top: 100px;
+}
+
+.social {
+  position: absolute;
+  width: 336px;
+  height: 48px;
+  left: 1104px;
+  top: 88px;
+  z-index: 1;
+}
+
+.Frame_Youtube {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 12px;
+  top: 12px;
+
+  border-radius: 0px;
+  z-index: 2;
+}
+
+.Vector_Youtube {
+  position: absolute;
+  left: 4.17%;
+  right: 1.21%;
+  top: 16.67%;
+  bottom: 16.67%;
+
+  background: #ffffff;
+  z-index: 2;
+}
+
+.border_icons {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+
+  border: 1px solid #666666;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 0px 0px #666666);
+  border-radius: 50px;
+  z-index: 2;
+}
