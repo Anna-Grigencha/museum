@@ -25,9 +25,11 @@
   font-size: 22px;
 }
 
-.video {
+.player {
   /*background: url(../assets/img/Video.jpg) no-repeat center;*/
   margin-top: 75px;
+  max-width: 1440px;
+  max-height: 650px;
   /*display: flex;
   flex-wrap: wrap;*/
 }
@@ -150,7 +152,7 @@
     display: none;
   }
 
-  .video {
+  .player {
     /*background: url(../assets/img/Video.jpg) no-repeat center;*/
     margin-top: 40px;
     /*display: flex;
@@ -239,7 +241,7 @@
     display: none;
   }
 
-  .video {
+  .player {
     /*background: url(../assets/img/Video.jpg) no-repeat center;*/
     margin-top: 20px;
     /*display: flex;
@@ -291,7 +293,7 @@
     display: none;
   }
 
-  .video {
+  .player {
     /*background: url(../assets/img/Video.jpg) no-repeat center;*/
     margin-top: 20px;
     /*display: flex;
